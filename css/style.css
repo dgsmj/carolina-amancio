@@ -113,6 +113,12 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 800px) {
   .hero__inner { grid-template-columns: 1fr; }
   .hero__photo { order: -1; }
+
+  .hero__text .btn--primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .eyebrow {
