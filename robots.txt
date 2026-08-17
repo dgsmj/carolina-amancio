@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dgsmj.github.io/carolina-amancio/sitemap.xml
+Sitemap: https://psicarolinaamancio.com.br/sitemap.xml
