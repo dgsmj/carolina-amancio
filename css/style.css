@@ -327,6 +327,19 @@ a { color: inherit; text-decoration: none; }
 
 .sobre .photo { max-width: 320px; }
 
+.sobre__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.sobre__crp {
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
 .sobre__formacao {
   font-size: 0.85rem;
   letter-spacing: 0.03em;
@@ -337,6 +350,7 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 800px) {
   .sobre__inner { grid-template-columns: 1fr; }
+  .sobre__crp { margin-bottom: 16px; }
 }
 
 /* FAQ */
